@@ -1,6 +1,6 @@
 ---
 - name: Intro to Ansible Playbooks
-
+  hosts: all
   tasks:
   - name: Upgrade all apt packages
     apt:
